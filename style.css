@@ -1,5 +1,6 @@
 body{
     background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display';
 }
 .general{
     text-align: center;
@@ -78,20 +79,5 @@ u:hover{
         background-image: url("images/pattern-background-mobile.svg");
     }
 }/* Without border-box */
-.element {
-    width: 300px;
-    height: 200px;
-    padding: 20px;
-    border: 2px solid black;
-    box-sizing: content-box; /* This is the default value */
-  }
-  
-  /* With border-box */
-  .element1 {
-    width: 300px;
-    height: 200px;
-    padding: 20px;
-    border: 2px solid black;
-    box-sizing: border-box;
-  }
+
   
